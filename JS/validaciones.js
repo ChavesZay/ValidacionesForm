@@ -4,6 +4,7 @@ inputNacimiento.addEventListener("blur", (event)=>{
     validarNacimiento(event.target);
 })
 
+
 function validarNacimiento(inputNacimiento){
     const fechaCliente=new Date(inputNacimiento.value);
     let mensaje="";

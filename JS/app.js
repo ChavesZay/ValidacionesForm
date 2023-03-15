@@ -4,4 +4,5 @@ import { valida } from "./validacionesMejorado.js";
     input.addEventListener("blur", (event)=>{
         valida(event.target);
     })
+    
  });
